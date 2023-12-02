@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="wid=device-width, initial-scale=1.0">
+        <title>MY WEB PAGE</title>
+             <style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+html{
+    height: 100%;
+}
+body{
+    background: #080808;
+    color: #fff;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #ff004f;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color: #f33c3c;
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 600;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.blog-box{
+    width: 350px;
+    background-color: black;
+    border: 1px solid white;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: #f33c3c;
+    font-size: 0.9rem;
+}
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+.blog-text .blog-title:hover{
+    color: #f33c3c;
+    transition: all ease 0.3s;
+}   
+ .foot1{
+    color: white;
+	background-color: black;
+	font-size: 18px;
+    padding: 30px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0 0 5px; 
+ }
+ .blog-container2{
+    max-width: 400px;
+	padding: 8px;
+	position: relative; left: -400px; top: -587px;
+	margin: 10px auto; 
+ }
+ .blog-container3{
+    max-width: 400px;
+	padding: 8px;
+	position: relative; right: -400px; top: -1140px;
+	margin: 10px auto; 
+ }
+             </style>
+    </head>
+    <body>
+      <div id="header">
+        <div class="container">
+            <nav>
+              <a href="index.html">  <img src="potchalogo.png" class="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="IT111 Blog Entries Page.html">IT111 Blog Entries</a></li>
+                    <li><a href="Flex Page.html">Flex Page</a></li>
+                </ul>
+              </a>
+            </nav>
+            <div class="content">
+          
+            <section id="blog">
+                <div class="blog-heading">
+                    <h3>My Flex</h3>
+                </div>
+    
+                
+<div class="blog-container1">
+
+    <div class="blog-box">
+        <div class="blog-img">
+            <img src="parents.jpg" alt="Blog">
+        </div>
+  <div class="blog-text">
+    <span>I AM VERY PROUD OF MY PARENTS</span>
+    <a href="#" class="blog-title">I am immensely proud to you as my parents. With heartfelt gradtitude, thank you for everything.</a>
+  </div>
+    </div>
+</div>
+
+
+<div class="blog-container2">
+
+    <div class="blog-box">
+        <div class="blog-img">
+            <img src="laptop.jpg"Blog">
+        </div>
+  <div class="blog-text">
+    <span>MY LAPTOP</span>
+    <a href="#" class="blog-title">Thanks to my parents for buying me a laptop.</a>
+  </div>
+    </div>
+</div>
+
+<div class="blog-container3">
+
+    <div class="blog-box">
+        <div class="blog-img">
+            <img src="john.jpg" alt="Blog">
+        </div>
+  <div class="blog-text">
+    <span>MY SELF</span>
+    <a href="#" class="blog-title">So proud of myself for surviving the days I thought I coudn't</a>
+  </div>
+    </div>
+</div>
+          
+</section>
+
+ 
+
+    </body>
+  
+    <footer>
+        <p class="foot1">Designed by <span class="designer">Johnclaude 2023/2024</p>
+    </footer>
+   
+
+</html>
